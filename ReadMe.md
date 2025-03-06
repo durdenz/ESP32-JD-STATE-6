@@ -38,9 +38,10 @@
 | GND (PIN 15) | GND (12V) | BLACK |
 
 | A4988 Motor Controller | NMEA 17 STEPPER MOTOR | COLOR |
+| :--- | :--- | :--- |
 | 1B (PIN 11) | 1B | BLACK |
-| 1A (PIN 12)| 1A | GREEN |
-| 2A (PIN 13)| 2A | BLUE |
+| 1A (PIN 12) | 1A | GREEN |
+| 2A (PIN 13) | 2A | BLUE |
 | 2B (PIN 14) | 2B | RED |
 
 ## PreRequisites

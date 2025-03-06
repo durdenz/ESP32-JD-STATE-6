@@ -458,6 +458,7 @@ bool PlayGIF(String gifFile, int iterations, int seconds) {
         if (AnimateGIF == false) { // **** GD **** Test to see if we can break out
           gif.close();
           tft.fillScreen(TFT_BLACK);
+          delay(100); // *** GD *** Test to avoid gif corruption
           return(true);
         }
       }
