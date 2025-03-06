@@ -13,6 +13,8 @@
 #include <AnimatedGIF.h>
 #include <JPEGDecoder.h>
 
+int sodaCount = 6;
+
 TFT_eSPI tft = TFT_eSPI();
 AnimatedGIF gif;
 
@@ -207,6 +209,9 @@ bool dispenseSoda() {
       digitalWrite(STEP, LOW);
       delayMicroseconds(2000);
   }
+  if (sodaCount > 0) {
+    sodaCount--;
+  }
   return(true);
 }
 
@@ -329,7 +334,7 @@ void StateActive() {
   tft.setTextColor(TFT_WHITE);
   tft.setFreeFont(CF_OB9);
   tft.setTextSize(2);
-  tft.drawCentreString("6", 119, 89, GFXFF);
+  tft.drawCentreString(String(sodaCount), 119, 89, GFXFF);
 
   // Draw Button
   tft.drawRect( BTN1_X, BTN1_Y, BTN1_WIDTH, BTN1_HEIGHT, TFT_WHITE);
