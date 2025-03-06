@@ -39,10 +39,10 @@
 
 | A4988 Motor Controller | NMEA 17 STEPPER MOTOR | COLOR |
 | :--- | :--- | :--- |
-| 1B (PIN 11) | 1B | BLACK |
-| 1A (PIN 12) | 1A | GREEN |
-| 2A (PIN 13) | 2A | BLUE |
-| 2B (PIN 14) | 2B | RED |
+| 1B (PIN 11) | 1B | RED |
+| 1A (PIN 12) | 1A | BLUE |
+| 2A (PIN 13) | 2A | GREEN |
+| 2B (PIN 14) | 2B | BLACK |
 
 ## PreRequisites
 - Connect ESP32 with TFT Display/Touchscreen and SD Card Reader per the wiring table above
