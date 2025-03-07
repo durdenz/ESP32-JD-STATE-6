@@ -15,11 +15,11 @@
 | LED | GPIO 21 | GREEN |
 | SCK | GPIO 14 | YELLOW |
 | SDI(MOSI) | GPIO 13 | BROWN |
-| D/C | GPIO 2 | ORANGE |
+| DC | GPIO 2 | ORANGE |
 | RESET | EN/RESET | ORANGE |
 | CS  | GPIO 15 | GREEN |
 | GND | GND | BLACK |
-| VCC | 3V3 | RED |
+| VCC | VIN | RED |
 
 | SD CARD READER | ESP32 | COLOR |
 | :--- | :--- | :--- |
@@ -65,23 +65,23 @@
 Each has been changed to include custom paramters the code relies on.
 
 
-1. Add User_Setup.h File:   <--- NOT NECESSARY
+1. Add User_Setup.h File:
 
-	C:\Users\jorde\Documents\Arduino\libraries\TFT_eSPI <--- NOT NECESSARY
+	~\Documents\Arduino\libraries\TFT_eSPI
 
-2. Add User_Custom_Fonts.h File:   <--- COMPLETE
+2. Add User_Custom_Fonts.h File:
 
-	C:\Users\jorde\Documents\Arduino\libraries\TFT_eSPI\User_Setups
+	~\Documents\Arduino\libraries\TFT_eSPI\User_Setups
 
-3. Add TFT_eSPI.h File:   <--- COMPLETE
+3. Add TFT_eSPI.h File:
 
-	C:\Users\jorde\Documents\Arduino\libraries\TFT_eSPI
+	~\Documents\Arduino\libraries\TFT_eSPI
 
-4. Add Font Files:   <--- COMPLETE
+4. Add Font Files:
 
-	C:\Users\jorde\Documents\Arduino\libraries\TFT_eSPI\Fonts\Custom
+	~\Documents\Arduino\libraries\TFT_eSPI\Fonts\Custom
 
-5. Add These Fonts: <--- COMPLETE
+5. Add These Fonts:
 
 	MPLUS2_Bold10pt7b.h
 	Orbitron_Bold_9.h
