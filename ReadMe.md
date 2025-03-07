@@ -62,7 +62,7 @@
 
 ## Jorde Notes:
 !!!!! YOU MUST ADD THESE FILES FOR THE CODE TO WORK !!!!!
-Each has been changed to include custom paramters the code relies on.
+Each has been changed to include custom parameters the code relies on.
 
 
 1. Add User_Setup.h File:
